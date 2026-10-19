@@ -10,6 +10,8 @@ ACTION: Introduce evening wind-down programs and stretches
 and smart sleep alarm to help reduce nighttime restlessness
 
 */
+
+-- CTE 1: Sleep Efficiency 
 WITH sleep_efy_restlness AS (
     SELECT 
         user_id,
@@ -29,6 +31,7 @@ WITH sleep_efy_restlness AS (
 
 ),
 
+-- CTE 2: Sleep Persona
 sleep_personas AS (
     SELECT 
         user_id,

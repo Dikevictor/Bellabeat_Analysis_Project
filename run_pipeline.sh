@@ -22,7 +22,7 @@ echo "[3/6] Running data cleaning and transformation..."
 
 # 4. Run Exploratory Data Analysis
 echo "[4/6] Running EDA queries..."
-"/Applications/Postgres.app/Contents/Versions/18/bin/psql" -d bellabeat_analysis -f "$DIR/SQL/04_eda_queries.sql"
+"/Applications/Postgres.app/Contents/Versions/18/bin/psql" -d bellabeat_analysis -f "$DIR/SQL/04_sedentary_vs_sleep_impact.sql"
 
 # 5. Sleep Hygiene Analysis
 echo "[5/6] Running sleep hygiene analysis..."

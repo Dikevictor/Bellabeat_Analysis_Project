@@ -115,7 +115,7 @@ ORDER BY
 
 SELECT 
     activity_persona,
-    ROUND(AVG(sedentary_pct), 2) AS persona_sedentary_percentage,
+    ROUND(AVG(sedentary_pct), 2) AS persona_sedentary_pct,
     ROUND(AVG(user_sleep_efficiency), 2) AS persona_sleep_efficiency,
     COUNT(user_id) AS Persona_size
 
@@ -126,5 +126,30 @@ GROUP BY
 ORDER BY 
     persona_sleep_efficiency DESC;
 
+/*
 
+RESULT SET 
+
+[
+  {
+    "activity_persona": "ACTIVE",
+    "persona_sedentary_pct": "69.76",
+    "persona_sleep_efficiency": "96.00",
+    "persona_size": "1"
+  },
+  {
+    "activity_persona": "MODERATELY SEDENTARY",
+    "persona_sedentary_pct": "74.78",
+    "persona_sleep_efficiency": "91.36",
+    "persona_size": "14"
+  },
+  {
+    "activity_persona": "HIGHLY SEDENTARY",
+    "persona_sedentary_pct": "89.04",
+    "persona_sleep_efficiency": "90.44",
+    "persona_size": "9"
+  }
+]
+
+*/
 
