@@ -544,6 +544,4 @@ Building this project deepened my technical proficiency in PostgreSQL pipeline d
 ---
 
 ## 👤 Author
-
-* GitHub: [Dikevictor](https://github.com/Dikevictor)
 * LinkedIn: [Dike Victor Nwabuokei](https://linkedin.com/in/your-linkedin-profile)
